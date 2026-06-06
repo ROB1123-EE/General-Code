@@ -1,7 +1,10 @@
-Static : (use one by one)
+Static : (use one by one in router CLI)
 Router>en
 Router#config t
 Router(config)#interface fa0/0
 Router(config-if)#ip address 192.168.1.1 255.255.255.0 ( Given Network ) 
 Router(config-if)#no shut
 
+
+Verification of connection : (use in Pc Command Promt)
+C:\>ping 192.168.2.4
