@@ -1,0 +1,7 @@
+Static : (use one by one)
+Router>en
+Router#config t
+Router(config)#interface fa0/0
+Router(config-if)#ip address 192.168.1.1 255.255.255.0 ( Given Network ) 
+Router(config-if)#no shut
+
